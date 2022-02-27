@@ -8,7 +8,8 @@
   "author": "Prince Takyi Akomea",
   "license": "MIT",
   "scripts": {
-    "build": "npm run clean && babel src -d dist && cd dist && node app.js",
+    "start": "node dist/app.js",
+    "build": "npm run clean && babel src -d dist",
     "clean": "rimraf dist",
     "dev": "nodemon --exec babel-node src/app.js"
   },
