@@ -389,6 +389,84 @@ const regions = [
             },
         ],
     },
+    {
+        code: 'UW',
+        label: 'Bono Region',
+        districts: [
+            {
+                code: 'BD',
+                label: 'Banda',
+                category: 'District',
+                capital: 'Banda Ahenkro',
+            },
+            {
+                code: 'BEE',
+                label: 'Berekum East',
+                category: 'Municipal',
+                capital: 'Berekum',
+            },
+            {
+                code: 'BEW',
+                label: 'Berekum West',
+                category: 'District',
+                capital: 'Jinijini',
+            },
+            {
+                code: 'DC',
+                label: 'Dormaa Central',
+                category: 'Municipal',
+                capital: 'Dormaa Ahenkro',
+            },
+            {
+                code: 'DE',
+                label: 'Dormaa East',
+                category: 'District',
+                capital: 'Wamfie',
+            },
+            {
+                code: 'DW',
+                label: 'Dormaa West',
+                category: 'District',
+                capital: 'Nkrankwanta',
+            },
+            {
+                code: 'JN',
+                label: 'Jaman North',
+                category: 'District',
+                capital: 'Sampa',
+            },
+            {
+                code: 'JS',
+                label: 'Jaman South',
+                category: 'Municipal',
+                capital: 'Drobo',
+            },
+            {
+                code: 'SY',
+                label: 'Sunyani',
+                category: 'Municipal',
+                capital: 'Sunyani',
+            },
+            {
+                code: 'SYW',
+                label: 'Sunyani West',
+                category: 'District',
+                capital: 'Odumase',
+            },
+            {
+                code: 'TN',
+                label: 'Tain',
+                category: 'District',
+                capital: 'Nsawkaw',
+            },
+            {
+                code: 'WC',
+                label: 'Wenchi',
+                category: 'Municipal',
+                capital: 'Wenchi',
+            },
+        ],
+    },
 ];
 
 
