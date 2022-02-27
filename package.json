@@ -1,0 +1,28 @@
+{
+  "name": "regions-server",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "regions","ghana", "districts", "capitals", "municipals", "metropolitans"
+  ],
+  "author": "Prince Takyi Akomea",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run clean && babel src -d dist",
+    "now-build": "npm run build",
+    "clean": "rimraf dist",
+    "dev": "nodemon --exec babel-node src/app.js",
+    "start": "npm run clean && npm run build && cd dist && node app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2"
+  }
+}
