@@ -8,11 +8,9 @@
   "author": "Prince Takyi Akomea",
   "license": "MIT",
   "scripts": {
-    "build": "npm run clean && babel src -d dist",
-    "now-build": "npm run build",
+    "build": "npm run clean && babel src -d dist && cd dist && node app.js",
     "clean": "rimraf dist",
-    "dev": "nodemon --exec babel-node src/app.js",
-    "start": "npm run clean && npm run build && cd dist && node app.js"
+    "dev": "nodemon --exec babel-node src/app.js"
   },
   "dependencies": {
     "express": "~4.16.1"
