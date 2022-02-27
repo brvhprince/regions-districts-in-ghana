@@ -8,7 +8,7 @@
   "author": "Prince Takyi Akomea",
   "license": "MIT",
   "scripts": {
-    "build": "npm run clean && babel src -d dist && cd dist && node app.js",
+    "start": "npm run clean && babel src -d dist && cd dist && node app.js",
     "clean": "rimraf dist",
     "dev": "nodemon --exec babel-node src/app.js"
   },
@@ -22,5 +22,8 @@
     "@babel/preset-env": "^7.16.11",
     "nodemon": "^2.0.15",
     "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
