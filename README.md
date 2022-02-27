@@ -37,6 +37,7 @@ interface district {
 interface region {
     code: string
     label: string
+    capital: string
     districts: Array<district>
 }
 
@@ -56,6 +57,7 @@ interface region {
     {
       "code": "AR",
       "label": "Ahafo Region",
+      "capital": "Goaso",
       "districts": [
        {
       "code": "ASN",
@@ -87,6 +89,7 @@ interface region {
 "regions": {
 "code": "AR",
 "label": "Ahafo Region",
+"capital": "Goaso",
 "districts": [
 {
 "code": "ASN",
