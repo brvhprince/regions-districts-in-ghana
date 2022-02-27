@@ -14,9 +14,10 @@ app.get('/regions/:id', makeCallback(getRegions))
 app.get('/regions', makeCallback(getRegions))
 app.use(makeCallback(notFound))
 
-
-app.listen(3000, () => {
-    console.log('Regions Server is listening on port 3000')
+// for heroku deployment
+const port = process.env.PORT || 3000
+app.listen(port, () => {
+    console.log(`Regions Server is listening on port ${port}`)
 })
 
 export default app
