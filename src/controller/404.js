@@ -9,7 +9,11 @@ export default async function notFound () {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: { error: 'Not found.' },
+        body: {
+            error: 'Houston, we lost you',
+            all_regions: '/regions',
+            specific_region: '/regions/{region_code}'
+        },
         statusCode: 404
     }
 }
