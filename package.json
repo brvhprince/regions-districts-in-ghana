@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "keywords": [
-    "regions","ghana", "districts", "capitals", "municipals", "metropolitans"
+    "regions",
+    "ghana",
+    "districts",
+    "capitals",
+    "municipals",
+    "metropolitans"
   ],
   "author": "Prince Takyi Akomea",
   "license": "MIT",
@@ -14,6 +19,7 @@
     "dev": "nodemon --exec babel-node src/app.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "~4.16.1"
   },
   "devDependencies": {

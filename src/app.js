@@ -5,10 +5,12 @@ import {
     notFound
 } from './controller'
 import { makeCallback } from './framework'
+import cors from 'cors'
 
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
+app.use(cors())
 
 app.get('/regions/:id', makeCallback(getRegions))
 app.get('/regions', makeCallback(getRegions))
