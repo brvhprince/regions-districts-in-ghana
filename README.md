@@ -114,7 +114,7 @@ interface region {
 
 ## Installation
 
-- Clone project or download and extract zip
+- Clone project
 
  ```shell script
     git remote add my_awesome_regions https://github.com/brvhprince/regions-districts-in-ghana.git
