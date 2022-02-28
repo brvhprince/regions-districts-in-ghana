@@ -16,7 +16,9 @@ module.exports = function makeCallback (controller) {
             headers: {
                 'Content-Type': req.get('Content-Type'),
                 Referer: req.get('referer'),
-                'User-Agent': req.get('User-Agent')
+                'User-Agent': req.get('User-Agent'),
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET'
             }
         }
         controller(httpRequest)
