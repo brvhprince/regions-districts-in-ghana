@@ -6,7 +6,7 @@
  
  ## Usage
  ```
-EDNPOINT: https://ghana-regions.herokuapp.com
+EDNPOINT: https://regions-and-districts-in-ghana.onrender.com
  
  REQUEST METHOD: GET
 ```
@@ -47,7 +47,7 @@ interface region {
 
 **All Regions**
 
-`https://ghana-regions.herokuapp.com/regions`
+`https://regions-and-districts-in-ghana.onrender.com/regions`
 
 ```json
 
@@ -78,7 +78,7 @@ interface region {
 
 **Specific Region**
 
-`https://ghana-regions.herokuapp.com/regions/ar`
+`https://regions-and-districts-in-ghana.onrender.com/regions/ar`
 
 *region code can be uppercase or lowercase*
 
