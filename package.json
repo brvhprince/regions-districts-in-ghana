@@ -16,7 +16,8 @@
     "start": "node dist/app.js",
     "build": "npm run clean && babel src -d dist",
     "clean": "rimraf dist",
-    "dev": "nodemon --exec babel-node src/app.js"
+    "dev": "nodemon --exec babel-node src/app.js",
+    "render-build": "yarn install && yarn build"
   },
   "dependencies": {
     "cors": "^2.8.5",
